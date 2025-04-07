@@ -31,7 +31,10 @@ while True:
 
         if pilha.top != 0:
             print("Elementos da pilha: ")
-            print(itens)
+            i = len(itens) - 1
+            while i >=0:
+                print(itens[i])
+                i -= 1 
         else: 
             print("Pilha vazia. Nao ha elementos para mostrar")
 
